@@ -1,5 +1,5 @@
 
-# Image Sequence to GIF
+# Image Sequence to GIF (imgseq2gif)
 
 AppLSAC that converts a sequence of images into a GIF by application of `gif.js` by  Johan Nordberg and the modification of [AudioSlides4Web](https://www.github.com/niebert/audioslides4web) tool, that converts a sequence of images together with a sequence of audio comments into a web-based presentation. The complete handling of an images sequences in [AppLSAC AudioSlides4Web](https://niebert.github.io/audioslides4web) can be reused for loading images into the AppLSAC and the conversion into the GIF will be performed by a web worker and the JavaScript GIF encoder. As an AppLSAC the images are loaded into the browser for processing and not to remote server for remote processing. So the WebApp uses your browser as runtime environment for performing the GIF generation completely in your browser.
 
